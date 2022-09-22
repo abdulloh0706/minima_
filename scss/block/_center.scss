@@ -1,0 +1,107 @@
+.sct2{
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sct2__box{
+    width: 1400px;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        margin-left: 150px;
+    }
+}
+.sct2__text{
+    margin-right: 180px;
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            color: $dark;
+        }
+}
+.sct3{
+    width: 1400px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    margin-right: 150px;
+}
+.sct3__box{
+    width: 1400px;
+    margin: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sct3__text{
+    margin-left: 150px;
+    h1{
+        font-weight: 700;
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 35px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: $dark_grey;
+        margin-bottom: 25px;
+    }
+}
+.sct3__list{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: $h4_font;
+    margin-bottom: 15px;
+}
+.sct4{
+    width: 1400px;
+    height: 552px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &__list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}
+.sct4__box{
+    width: 1400px;
+    margin: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sct4__text{
+    margin-right: 150px;
+    h1{
+        font-weight: 700;
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $black;
+        margin-bottom: 30px;
+    }
+
+}
+
